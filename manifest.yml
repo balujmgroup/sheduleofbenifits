@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: sheduleofbenifits
+  host: sheduleofbenifits
+  disk_quota: 1024M
+  services:
+  - MongoDB by Compose-7q
+  env:
+    APP_ID: gCglFGhv3Hh20arBqJVVCTLwPgJw1t3IJc9PXanK
+    MASTER_KEY: WaLG8r8Kiar3hQIWXwKWRMZSSCMvJVsR0gC235na
+    PARSE_MOUNT: /parse
+    REST_KEY: Ra1S5JLZXgTjjlI06TG7o4Uvk4ZDSnD7fvibzCF0
